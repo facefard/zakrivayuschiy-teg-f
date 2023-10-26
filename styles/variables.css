@@ -1,9 +1,13 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
+  --background-color: #000;
   --main-background-color: #000;
   --start-color: #007f0c;
   --end-color: #004306;
   --border-color: #00CC14;
   --main-text-color: #00CC14;
-  --main-heart-color: #FF0000;
+  --main-heart-color: #F00;
+  --hover-button-color: #00CC14;
+  --font-weight-normal: 465;
+  --font-weight-bold: 785;
 }

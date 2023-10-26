@@ -4,36 +4,23 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
-:root {
+:root.theme-dark {
   --background-color: #000;
   --main-background-color: #000;
   --start-color: #007f0c;
   --end-color: #004306;
   --border-color: #00CC14;
   --main-text-color: #00CC14;
-  --main-heart-color: #FF0000;
+  --main-heart-color: #F00;
   --hover-button-color: #00CC14;
   --font-weight-normal: 465;
   --font-weight-bold: 785;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background-image: 
-    repeating-linear-gradient(to bottom, var(--background-color), var(--background-color) 2px, transparent 2px, transparent 4px),
-    repeating-linear-gradient(to right, var(--background-color), var(--background-color) 2px, transparent 2px, transparent 4px),
-    linear-gradient(to bottom, var(--start-color), var(--end-color) );
-  background-size: cover;
-  background-attachment: fixed;
-  background-color: var(--background-color);
-  color: var(--main-text-color);
-}
-
 .theme-light {
   --background-color: #d3d3d3;
   --main-background-color: #fff;
-  --start-color: #e7e7e7 0.1%;
+  --start-color: #e7e7e7;
   --end-color: #1a1a1a;
   --main-text-color: #000;
   --border-color: #000;
@@ -46,16 +33,12 @@ body {
   .theme-light {
     --background-color: #d3d3d3;
     --main-background-color: #fff;
-    --start-color: #e7e7e7 0.1%;
+    --start-color: #e7e7e7;
     --end-color: #1a1a1a;
     --main-text-color: #000;
     --border-color: #000;
     --hover-button-color: #fff;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
-  }
-
-  path {
-    fill: #000;
   }
 }
