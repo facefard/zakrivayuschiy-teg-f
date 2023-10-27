@@ -13,6 +13,7 @@
   --main-text-color: #00CC14;
   --main-heart-color: #F00;
   --hover-button-color: #00CC14;
+  --button-text-color: #00CC14;
   --font-weight-normal: 465;
   --font-weight-bold: 785;
 }
@@ -24,7 +25,8 @@
   --end-color: #1a1a1a;
   --main-text-color: #000;
   --border-color: #000;
-  --hover-button-color: #fff;
+  --hover-button-color: #000;
+  --button-text-color: #fff;
   --font-weight-normal: 400;
   --font-weight-bold: 700;
 }
@@ -37,7 +39,8 @@
     --end-color: #1a1a1a;
     --main-text-color: #000;
     --border-color: #000;
-    --hover-button-color: #fff;
+    --hover-button-color: #000;
+    --button-text-color: #fff;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
   }
