@@ -30,7 +30,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .theme-light {
+  :root {
     --background-color: #d3d3d3;
     --main-background-color: #fff;
     --start-color: #e7e7e7;
